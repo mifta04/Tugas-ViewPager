@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/waow"
+    tools:context=".SecondFragment">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/ln"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginLeft="65dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="bottom"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="#6A000000"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textStyle="italic"
+                            android:text="Pengertian Landmark"
+                            android:textColor="@android:color/white"
+                            android:textSize="20dp"
+                            android:gravity="center"/>
+                    </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="225dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:text="  Landmark adalah objek yang sengaja diciptakan atau dibuat/artifisial, sebagai elemen/bentuk penunjang sebuah kota dan bersifat monumental.
+    Landmark dapat pula dilihat dalam arti besar dan kecil, maksudnya ada suatu simbol visual yang utama sebagai ciri keseluruhan kota dan ada pula simbol visual lainnya (setelah yg utama) sebagai ciri dari suatu kawasan tertentu di kota tersebut.
+    Bersifat tetap atau tidak berpindah-pindah, demikian pula ukuran/skala yang tetap atau tidak berubah. Bila kita menemukan objek yang istimewa, indah dll namun keeseokkan harinya objek tersebut pindah atau tidak dapat ditemukan di tempat semula, maka objek tersebut tidak bisa dikategorikan sebagai sebuah landmark. " />
+
+</FrameLayout>
